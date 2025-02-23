@@ -1,0 +1,66 @@
+
+body{
+    padding:0;
+    margin: 0;
+    background-color: rgb(230, 230, 242);
+}
+
+.hero {
+    border: none;
+    width: 500px;
+    margin: 100px auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+    font-family: DM Sans;
+}
+
+.hero h1 {
+    text-align: center;
+    color: blue;
+    font-size: 40px;
+}
+
+.hero textarea{
+    width: 97.5%;
+    height: 100px;
+    resize: none;
+    font-family: DM Sans;
+    outline: none;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+.hero .row {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.row select {
+    font-family: DM Sans;
+    padding: 10px;
+    outline: none;
+    cursor:crosshair;
+}
+
+
+.row button {
+    background: linear-gradient(20deg, blue, lightblue,blue);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-family: DM Sans;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    cursor: pointer;
+    transition: 1s ease;
+}
+
+img{
+    width: 20px;
+}
